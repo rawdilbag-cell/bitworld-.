@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    overflow: hidden;
+    background-color: #0b0f14;
+    color: #e2e8f0;
+  }
+}
+
+.font-mono-tactical {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.tactical-border {
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  box-shadow: inset 0 0 15px rgba(56, 189, 248, 0.05), 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.tactical-glow-cyan {
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+}
+
+.tactical-glow-red {
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.5);
+}
+
+/* Radar scanline animation */
+@keyframes radarSweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar-sweep {
+  animation: radarSweep 4s linear infinite;
+  transform-origin: center;
+}
+

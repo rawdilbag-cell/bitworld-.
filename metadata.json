@@ -1,0 +1,6 @@
+{
+  "name": "Frontline Reality",
+  "description": "High-graphic, realistic 3D battleground web game featuring procedural textured terrain, military outposts, smart AI bots, dynamic storm zone, and cinematic tactical HUD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
